@@ -1,14 +1,16 @@
 import os
 from pydantic_settings import BaseSettings
+from pydantic import Field
 
 class Settings(BaseSettings):
-    master_key: str
-    jwt_secret_key: str
-    algorithm: str
-    access_token_expire_minutes: int
-    database_url: str
-    upload_dir: str
-    backup_dir: str
+    # mapeo explícito a las variables en .env (coincide con .env actual)
+    master_key: str = Field(..., env="CLINICA_MASTER_KEY")
+    jwt_secret_key: str = Field(..., env="JWT_SECRET_KEY")
+    algorithm: str = Field("HS256", env="ALGORITHM")
+    access_token_expire_minutes: int = Field(480, env="ACCESS_TOKEN_EXPIRE_MINUTES")
+    database_url: str = Field("sqlite:///./clinica.db", env="DATABASE_URL")
+    upload_dir: str = Field("./secure/uploads", env="UPLOAD_DIR")
+    backup_dir: str = Field("./backups", env="BACKUP_DIR")
     
     class Config:
         env_file = ".env"

@@ -1,0 +1,144 @@
+CLINICA PSICOLOGICA - SQLITE
+
+CREATE TABLE Usuarios (
+    id_usuario TEXT PRIMARY KEY,
+    email TEXT UNIQUE NOT NULL,
+    contrasena_hash TEXT NOT NULL,
+    salt TEXT NOT NULL,
+    nombre_clinica TEXT,
+    telefono_clinica TEXT,
+    activo INTEGER DEFAULT 1,
+    creado_en TEXT DEFAULT (datetime('now')),
+    ultimo_acceso TEXT
+);
+
+CREATE TABLE Pacientes (
+    id_paciente TEXT PRIMARY KEY,
+    -- Datos encriptados (JSON -> bytes): nombre, apellido, direccion
+    datos_sensibles_encriptados BLOB NOT NULL,
+    telefono_encriptado BLOB,
+    email_encriptado BLOB,
+    fecha_nacimiento TEXT, -- Guardar como "YYYY-MM-DD"
+    fecha_registro TEXT DEFAULT (datetime('now')),
+    activo INTEGER DEFAULT 1,
+    consentimiento_tratamiento INTEGER DEFAULT 0,
+    fecha_consentimiento TEXT
+);
+
+CREATE TABLE Contactos_Emergencia (
+    id_contacto TEXT PRIMARY KEY,
+    id_paciente TEXT REFERENCES Pacientes(id_paciente) ON DELETE CASCADE,
+    datos_encriptados BLOB, -- JSON encriptado: nombre, telefono, relacion
+    es_principal INTEGER DEFAULT 0
+);
+
+CREATE TABLE Citas (
+    id_cita TEXT PRIMARY KEY,
+    id_paciente TEXT REFERENCES Pacientes(id_paciente),
+    fecha_hora_inicio TEXT NOT NULL, -- ISO8601: "2024-01-15T09:00:00"
+    fecha_hora_fin TEXT NOT NULL,
+    estado TEXT CHECK (estado IN ('Pendiente', 'Cancelada', 'Realizada', 'No_asistio')),
+    motivo_cancelacion TEXT,
+    creado_en TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE CIE10 (
+    codigo TEXT PRIMARY KEY,
+    descripcion TEXT NOT NULL,
+    categoria TEXT
+);
+
+CREATE TABLE Registro_Sesion (
+    id_registro TEXT PRIMARY KEY,
+    id_cita TEXT UNIQUE REFERENCES Citas(id_cita),
+    nota_clinica_encriptada BLOB NOT NULL, -- ¡ENCRIPTADA!
+    plan_tratamiento_encriptado BLOB,
+    version INTEGER DEFAULT 1,
+    creado_en TEXT DEFAULT (datetime('now'))
+);
+
+-- Historial de versiones (Audit Trail)
+CREATE TABLE Registro_Sesion_Historial (
+    id_version TEXT PRIMARY KEY,
+    id_registro TEXT REFERENCES Registro_Sesion(id_registro),
+    nota_clinica_encriptada BLOB,
+    version INTEGER NOT NULL,
+    modificado_en TEXT DEFAULT (datetime('now'))
+);
+
+
+CREATE TABLE Pagos (
+    id_pago TEXT PRIMARY KEY,
+    id_cita TEXT REFERENCES Citas(id_cita),
+    monto REAL NOT NULL CHECK (monto > 0),
+    moneda TEXT DEFAULT 'COP',
+    metodo_pago TEXT CHECK (metodo_pago IN ('Efectivo', 'Nequi', 'Daviplata', 'Tarjeta', 'Transferencia')),
+    estado TEXT DEFAULT 'Pendiente' CHECK (estado IN ('Pendiente', 'Pagado', 'Reembolsado')),
+    fecha_pago TEXT,
+    transaccion_id TEXT,
+    conciliado INTEGER DEFAULT 0
+);
+
+CREATE TABLE Facturas (
+    id_factura TEXT PRIMARY KEY,
+    id_pago TEXT UNIQUE REFERENCES Pagos(id_pago),
+    numero_factura TEXT UNIQUE NOT NULL, -- FAC-2024-001
+    pdf_ruta TEXT,
+    fecha_emision TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE Gastos (
+    id_gasto TEXT PRIMARY KEY,
+    concepto TEXT NOT NULL,
+    monto REAL NOT NULL CHECK (monto > 0),
+    categoria TEXT, -- Renta, Suministros, Licencias
+    proveedor TEXT,
+    fecha TEXT DEFAULT (datetime('now')),
+    factura_ruta TEXT
+);
+
+
+CREATE TABLE Documentos (
+    id_documento TEXT PRIMARY KEY,
+    id_paciente TEXT REFERENCES Pacientes(id_paciente),
+    tipo_documento TEXT CHECK (tipo_documento IN ('Consentimiento', 'Laboratorio', 'Carta', 'Referencia')),
+    nombre_archivo TEXT,
+    ruta_almacenamiento TEXT,
+    checksum_sha256 TEXT, -- SHA256 del archivo
+    fecha_subida TEXT DEFAULT (datetime('now'))
+);
+
+
+CREATE TABLE Auditoria_Acceso (
+    id_auditoria TEXT PRIMARY KEY,
+    id_usuario TEXT REFERENCES Usuarios(id_usuario),
+    tabla_afectada TEXT NOT NULL,
+    id_registro TEXT,
+    accion TEXT CHECK (accion IN ('SELECT', 'INSERT', 'UPDATE', 'DELETE')),
+    ip_address TEXT, -- SQLite no tiene tipo INET
+    fecha TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE Backups (
+    id_backup TEXT PRIMARY KEY,
+    fecha_inicio TEXT NOT NULL,
+    fecha_fin TEXT,
+    ruta_almacenamiento TEXT,
+    tamano_gb REAL,
+    estado TEXT CHECK (estado IN ('En_progreso', 'Completado', 'Fallido'))
+);
+
+
+CREATE INDEX idx_pacientes_activo ON Pacientes(activo);
+CREATE INDEX idx_citas_fecha ON Citas(fecha_hora_inicio);
+CREATE INDEX idx_citas_paciente ON Citas(id_paciente);
+CREATE INDEX idx_pagos_estado ON Pagos(estado);
+CREATE INDEX idx_auditoria_fecha ON Auditoria_Acceso(fecha);
+
+
+INSERT INTO Usuarios (id_usuario, email, contrasena_hash, salt, nombre_clinica) VALUES 
+('00000000-0000-0000-0000-000000000001', -- UUID fijo para el dueño
+ 'tu@clinica.com', 
+ '$argon2id$v=19$m=65536,t=3,p=4...', -- ¡GENERA ESTO EN PYTHON!
+ 'salt_aleatorio',
+ 'Mi Clínica Psicológica');
