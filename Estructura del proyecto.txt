@@ -1,0 +1,13 @@
+Estructura del proyecto
+/clinica/
+├── .env                          # CLAVE MAESTRA + JWT SECRET
+├── main.py                       # FastAPI principal
+├──clinica.py
+├──clinica.db
+├── requirements.txt
+└── core/
+    ├── __init__.py
+    ├── security.py               # Encriptación, hashing, JWT
+    ├── database.py               # Conexión SQLite
+    ├── audit.py                  # Logging
+    └── config.py                 # Configuraci ón central

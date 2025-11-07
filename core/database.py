@@ -1,7 +1,11 @@
 import sqlite3
 import uuid
 from contextlib import contextmanager
+from pathlib import Path
 from core.config import settings
+
+ROOT = Path(__file__).resolve().parents[1]
+SQL_FILE = ROOT / "CLINICA PSICOLOGICA - SQLITE.txt"
 
 @contextmanager
 def get_db():
@@ -18,11 +22,11 @@ def get_db():
         conn.close()
 
 def init_db():
-    """Inicializa la base de datos si no existe"""
-    with open("clinica.sql", "r") as f:
+    """Inicializa la base de datos si no existe leyendo el archivo de esquema."""
+    if not SQL_FILE.exists():
+        raise FileNotFoundError(f"No se encontró el fichero SQL de esquema: {SQL_FILE}")
+    with open(SQL_FILE, "r", encoding="utf-8") as f:
         script = f.read()
-    
     with get_db() as conn:
         conn.executescript(script)
-    
     print("✅ Base de datos inicializada")
