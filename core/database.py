@@ -5,7 +5,7 @@ from pathlib import Path
 from core.config import settings
 
 ROOT = Path(__file__).resolve().parents[1]
-SQL_FILE = ROOT / "CLINICA PSICOLOGICA - SQLITE.txt"
+SQL_FILE = ROOT / "clinica.db"
 
 @contextmanager
 def get_db():
