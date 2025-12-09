@@ -68,6 +68,7 @@ def get_database_url():
                 f"SERVER={server_part};"
                 f"DATABASE={database};"
                 f"Trusted_Connection=Yes;"
+                f"TrustServerCertificate=Yes;"
             )
         else:
             # SQL Server Authentication
@@ -76,6 +77,7 @@ def get_database_url():
                 f"SERVER={server_part};"
                 f"DATABASE={database};"
                 f"UID={user};PWD={password};"
+                f"TrustServerCertificate=Yes;"
             )
 
         # Usar odbc_connect para evitar problemas con caracteres especiales y el driver

@@ -59,6 +59,12 @@ class MainWindow(QMainWindow):
 
         self.layout.addLayout(top_bar_layout)
         
+        # --- Contenedor de pestañas ---
+        self.tabs = QTabWidget()
+        self.layout.addWidget(self.tabs)
+
+        self.setup_ui_for_role()
+
     def handle_refresh(self):
         """Actualiza los datos de todas las pestañas."""
         import logging
@@ -80,11 +86,7 @@ class MainWindow(QMainWindow):
         from PySide6.QtWidgets import QMessageBox
         QMessageBox.information(self, "Datos Actualizados", "La información se ha recargado correctamente.")
 
-        # Contenedor de pestañas
-        self.tabs = QTabWidget()
-        self.layout.addWidget(self.tabs)
 
-        self.setup_ui_for_role()
 
     def handle_logout(self):
         """Emite la señal para cerrar la sesión."""

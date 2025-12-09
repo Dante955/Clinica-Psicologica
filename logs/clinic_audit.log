@@ -261,3 +261,32 @@ sqlalchemy.exc.IntegrityError: (pyodbc.IntegrityError) ('23000', "[23000] [Micro
 2025-12-09 08:19:02,519 - INFO - ✓ Panel de Email agregado
 2025-12-09 08:19:02,519 - INFO - Agregando panel de Mi Perfil
 2025-12-09 08:19:02,544 - INFO - Total de pestañas agregadas: 5
+2025-12-09 10:01:56,083 - INFO - ==================================================
+2025-12-09 10:01:56,083 - INFO - Iniciando aplicación. Config path: C:\Users\Admin\Clinica-Psicologica\config.ini
+2025-12-09 10:01:57,230 - INFO - Configurando conexión MSSQL a 192.168.0.15,1433 (DB: clinic_db)
+2025-12-09 10:01:57,230 - INFO - Intentando crear engine SQL Server (MSSQL)...
+2025-12-09 10:01:57,972 - INFO - Engine MSSQL creado correctamente.
+2025-12-09 10:02:01,876 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-09 10:02:01,876 - INFO - Creando respaldo automático de la base de datos...
+2025-12-09 10:02:01,878 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20251209_100201.db (0.04 MB)
+2025-12-09 10:02:01,881 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251201_155038.db
+2025-12-09 10:02:01,881 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251202_134006.db
+2025-12-09 10:02:01,881 - INFO - Manteniendo los 10 respaldos más recientes
+2025-12-09 10:02:04,053 - INFO - Mostrando ventana de login.
+2025-12-09 10:02:11,438 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-09 10:02:11,438 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-09 10:02:11,450 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-09 10:02:11,460 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-09 10:02:11,461 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-09 10:02:11,503 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-09 10:02:11,503 - INFO - Creando panel de Auditoría...
+2025-12-09 10:02:11,511 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-09 10:02:11,530 - INFO - ✓ Panel de Auditoría agregado
+2025-12-09 10:02:11,530 - INFO - Creando panel de Base de Datos...
+2025-12-09 10:02:11,593 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-09 10:02:11,593 - INFO - Creando panel de Email...
+2025-12-09 10:02:11,601 - INFO - ✓ Panel de Email agregado
+2025-12-09 10:02:11,601 - INFO - Agregando panel de Mi Perfil
+2025-12-09 10:02:11,628 - INFO - Total de pestañas agregadas: 5
+2025-12-09 10:02:13,992 - INFO - Iniciando actualización global de datos...
+2025-12-09 10:02:13,998 - INFO - Pestaña 'Gestión de Usuarios' actualizada.
