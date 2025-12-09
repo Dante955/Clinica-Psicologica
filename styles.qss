@@ -1,0 +1,72 @@
+
+
+QWidget {
+    background-color: #2E3440; /* Nord0 */
+    color: #ECEFF4;            /* Nord6 */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #3B4252; /* Nord1 */
+}
+
+/* Estilo para el título de la ventana de login */
+#titleLabel {
+    font-size: 28px;
+    font-weight: bold;
+    color: #88C0D0;            /* Nord8 */
+    qproperty-alignment: 'AlignCenter';
+}
+
+QLabel {
+    color: #D8DEE9;            /* Nord4 */
+}
+
+QLineEdit {
+    background-color: #4C566A; /* Nord3 */
+    border: 1px solid #4C566A;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ECEFF4;
+}
+
+QLineEdit:focus {
+    border: 1px solid #88C0D0;  /* Nord8 */
+}
+
+QPushButton {
+    background-color: #5E81AC; /* Nord10 */
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: bold;
+    color: #ECEFF4;
+}
+
+QPushButton:hover {
+    background-color: #81A1C1; /* Nord9 */
+}
+
+QPushButton:pressed {
+    background-color: #88C0D0; /* Nord8 */
+}
+
+QMessageBox {
+    background-color: #3B4252; /* Nord1 */
+}
+
+QMessageBox QLabel {
+    color: #ECEFF4;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+#panelTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #88C0D0; /* Nord8 */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4C566A; /* Nord3 */
+}```

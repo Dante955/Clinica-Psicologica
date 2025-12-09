@@ -1,0 +1,263 @@
+2025-12-05 10:16:41,115 - INFO - ==================================================
+2025-12-05 10:16:41,123 - INFO - PRUEBA DE LOGGING DE AUDITORÍA
+2025-12-05 10:16:41,128 - INFO - ==================================================
+2025-12-05 10:16:41,129 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-05 10:16:41,133 - INFO - Prueba de auditoría completada
+2025-12-05 10:18:15,681 - INFO - ==================================================
+2025-12-05 10:18:15,682 - INFO - Iniciando la aplicación Clínica Psicológica
+2025-12-05 10:18:15,682 - INFO - ==================================================
+2025-12-05 10:18:15,763 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-05 10:18:15,763 - INFO - Creando respaldo automático de la base de datos...
+2025-12-05 10:18:15,763 - INFO - No se encontró base de datos para respaldar. Se creará una nueva.
+2025-12-05 10:18:16,476 - INFO - Mostrando ventana de login.
+2025-12-05 10:18:27,107 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-05 10:18:27,107 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-05 10:18:27,113 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-05 10:18:27,117 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-05 10:18:27,117 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-05 10:18:27,134 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-05 10:18:27,135 - INFO - Creando panel de Auditoría...
+2025-12-05 10:18:27,138 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-05 10:18:27,155 - INFO - ✓ Panel de Auditoría agregado
+2025-12-05 10:18:27,157 - INFO - Creando panel de Base de Datos...
+2025-12-05 10:18:27,212 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-05 10:18:27,212 - INFO - Creando panel de Email...
+2025-12-05 10:18:27,220 - INFO - ✓ Panel de Email agregado
+2025-12-05 10:18:27,222 - INFO - Agregando panel de Mi Perfil
+2025-12-05 10:18:27,244 - INFO - Total de pestañas agregadas: 5
+2025-12-05 10:18:33,181 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-05 11:45:31,684 - INFO - ==================================================
+2025-12-05 11:45:31,688 - INFO - Iniciando la aplicación Clínica Psicológica
+2025-12-05 11:45:31,689 - INFO - ==================================================
+2025-12-05 11:45:31,855 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-05 11:45:31,858 - INFO - Creando respaldo automático de la base de datos...
+2025-12-05 11:45:31,862 - INFO - No se encontró base de datos para respaldar. Se creará una nueva.
+2025-12-05 11:45:33,297 - INFO - Mostrando ventana de login.
+2025-12-05 11:55:15,119 - INFO - ==================================================
+2025-12-05 11:55:15,121 - INFO - Iniciando la aplicación Clínica Psicológica
+2025-12-05 11:55:15,122 - INFO - ==================================================
+2025-12-05 11:55:15,308 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-05 11:55:15,308 - INFO - Creando respaldo automático de la base de datos...
+2025-12-05 11:55:15,308 - INFO - No se encontró base de datos para respaldar. Se creará una nueva.
+2025-12-05 11:55:16,295 - INFO - Mostrando ventana de login.
+2025-12-05 11:55:24,134 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-05 11:55:24,135 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-05 11:55:24,153 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-05 11:55:24,161 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-05 11:55:24,169 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-05 11:55:24,206 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-05 11:55:24,208 - INFO - Creando panel de Auditoría...
+2025-12-05 11:55:24,213 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-05 11:55:24,242 - INFO - ✓ Panel de Auditoría agregado
+2025-12-05 11:55:24,242 - INFO - Creando panel de Base de Datos...
+2025-12-05 11:55:24,333 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-05 11:55:24,333 - INFO - Creando panel de Email...
+2025-12-05 11:55:24,346 - INFO - ✓ Panel de Email agregado
+2025-12-05 11:55:24,347 - INFO - Agregando panel de Mi Perfil
+2025-12-05 11:55:24,385 - INFO - Total de pestañas agregadas: 5
+2025-12-09 08:06:17,329 - INFO - ==================================================
+2025-12-09 08:06:17,330 - INFO - Iniciando aplicación. Config path: C:\Users\Admin\Trabajo\config.ini
+2025-12-09 08:06:20,672 - INFO - Configurando conexión MSSQL a 192.168.0.9,1433 (DB: clinic_db)
+2025-12-09 08:06:20,672 - INFO - Intentando crear engine SQL Server (MSSQL)...
+2025-12-09 08:06:37,068 - ERROR - No se pudo conectar a MSSQL: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Proveedor de TCP: Tiempo de espera de la operación de espera agotado.\r\n (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Ha finalizado el tiempo de espera de inicio de sesión (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Error relacionado con la red o específico de instancia al establecer conexión con el servidor SQL Server. El servidor no se encuentra o no está accesible. Compruebe si el nombre de la instancia es correcto y si SQL Server está configurado para permitir conexiones remotas. Para obtener más información, vea los Libros en pantalla de SQL Server. (258)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-12-09 08:06:37,068 - CRITICAL - !!! ERROR CRÍTICO DE CONEXIÓN A SQL SERVER !!!
+2025-12-09 08:06:37,071 - WARNING - La aplicación usará una base de datos SQLite LOCAL temporal (C:\Users\Admin\Trabajo\clinic.db) en su lugar.
+2025-12-09 08:06:37,071 - WARNING - Verifique que el servidor esté activo, el firewall permita la conexión y las credenciales sean correctas.
+2025-12-09 08:06:41,631 - INFO - No se encontró usuario 'admin'. Creando usuario por defecto.
+2025-12-09 08:06:41,803 - INFO - No se encontró usuario 'psico1'. Creando usuario por defecto.
+2025-12-09 08:06:41,958 - INFO - No se encontró usuario 'steve'. Creando usuario por defecto.
+2025-12-09 08:06:42,314 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-09 08:06:42,314 - INFO - Creando respaldo automático de la base de datos...
+2025-12-09 08:06:42,321 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20251209_080642.db (0.04 MB)
+2025-12-09 08:06:42,324 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251202_134622.db
+2025-12-09 08:06:42,324 - INFO - Manteniendo los 10 respaldos más recientes
+2025-12-09 08:06:44,672 - INFO - Mostrando ventana de login.
+2025-12-09 08:07:00,293 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-09 08:07:00,293 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-09 08:07:00,299 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-09 08:07:00,316 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-09 08:07:00,317 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-09 08:07:00,374 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-09 08:07:00,375 - INFO - Creando panel de Auditoría...
+2025-12-09 08:07:00,389 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-09 08:07:00,415 - INFO - ✓ Panel de Auditoría agregado
+2025-12-09 08:07:00,418 - INFO - Creando panel de Base de Datos...
+2025-12-09 08:07:00,521 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-09 08:07:00,521 - INFO - Creando panel de Email...
+2025-12-09 08:07:00,540 - INFO - ✓ Panel de Email agregado
+2025-12-09 08:07:00,540 - INFO - Agregando panel de Mi Perfil
+2025-12-09 08:07:00,571 - INFO - Total de pestañas agregadas: 5
+2025-12-09 08:07:29,247 - INFO - Configuración de MSSQL guardada
+2025-12-09 08:07:35,609 - INFO - Datos exportados: 3 usuarios, 0 pacientes, 0 citas
+2025-12-09 08:07:35,617 - INFO - Iniciando importación de datos a SQL Server...
+2025-12-09 08:07:35,617 - INFO - Importando 3 registros a tabla 'users'...
+2025-12-09 08:07:35,946 - ERROR - Error importando tabla 'users': (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$o312H09R2fr2sm28$530b11e905bb07b6aa0fe1d39d14b02ff8fa294ef0de2bb96218e627457e354fbbb166cecc89b6ca55c612f374e9800424c5b13de9432d73e8f861b1d82ce9fc', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 08:07:35,947 - ERROR - ❌ Error durante la migración:
+
+(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$o312H09R2fr2sm28$530b11e905bb07b6aa0fe1d39d14b02ff8fa294ef0de2bb96218e627457e354fbbb166cecc89b6ca55c612f374e9800424c5b13de9432d73e8f861b1d82ce9fc', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+pyodbc.IntegrityError: ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Admin\Trabajo\database\database_migrator.py", line 341, in import_data_to_mssql
+    session.execute(text(insert_sql), record)
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2258, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$o312H09R2fr2sm28$530b11e905bb07b6aa0fe1d39d14b02ff8fa294ef0de2bb96218e627457e354fbbb166cecc89b6ca55c612f374e9800424c5b13de9432d73e8f861b1d82ce9fc', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 08:08:50,465 - INFO - ==================================================
+2025-12-09 08:08:50,465 - INFO - Iniciando aplicación. Config path: C:\Users\Admin\Trabajo\config.ini
+2025-12-09 08:08:51,244 - INFO - Configurando conexión MSSQL a 192.168.0.15,1433 (DB: clinic_db)
+2025-12-09 08:08:51,244 - INFO - Intentando crear engine SQL Server (MSSQL)...
+2025-12-09 08:08:51,950 - INFO - Engine MSSQL creado correctamente.
+2025-12-09 08:08:52,596 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-09 08:08:52,597 - INFO - Creando respaldo automático de la base de datos...
+2025-12-09 08:08:52,599 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20251209_080852.db (0.04 MB)
+2025-12-09 08:08:52,601 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251202_134550.db
+2025-12-09 08:08:52,601 - INFO - Manteniendo los 10 respaldos más recientes
+2025-12-09 08:08:53,230 - INFO - Mostrando ventana de login.
+2025-12-09 08:14:42,889 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-09 08:14:42,889 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-09 08:14:42,954 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-09 08:14:42,957 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-09 08:14:42,957 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-09 08:14:42,982 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-09 08:14:42,984 - INFO - Creando panel de Auditoría...
+2025-12-09 08:14:42,986 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-09 08:14:43,011 - INFO - ✓ Panel de Auditoría agregado
+2025-12-09 08:14:43,013 - INFO - Creando panel de Base de Datos...
+2025-12-09 08:14:43,118 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-09 08:14:43,119 - INFO - Creando panel de Email...
+2025-12-09 08:14:43,130 - INFO - ✓ Panel de Email agregado
+2025-12-09 08:14:43,130 - INFO - Agregando panel de Mi Perfil
+2025-12-09 08:14:43,154 - INFO - Total de pestañas agregadas: 5
+2025-12-09 08:14:59,406 - INFO - Datos exportados: 3 usuarios, 0 pacientes, 0 citas
+2025-12-09 08:14:59,412 - INFO - Iniciando importación de datos a SQL Server...
+2025-12-09 08:14:59,414 - INFO - Importando 3 registros a tabla 'users'...
+2025-12-09 08:14:59,583 - ERROR - Error importando tabla 'users': (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$GN3zizFnmQRvwhfC$ab71a41bcce77df2e2a07d5d88eb873c9a00e883a67369ce34e4dc764e195504b5f2859043c2527dae6cb685e85cc88d98d8ad4d88d0a6f0a1825d7bac44bfea', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 08:14:59,585 - ERROR - ❌ Error durante la migración:
+
+(pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$GN3zizFnmQRvwhfC$ab71a41bcce77df2e2a07d5d88eb873c9a00e883a67369ce34e4dc764e195504b5f2859043c2527dae6cb685e85cc88d98d8ad4d88d0a6f0a1825d7bac44bfea', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+pyodbc.IntegrityError: ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Admin\Trabajo\database\database_migrator.py", line 341, in import_data_to_mssql
+    session.execute(text(insert_sql), record)
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2258, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\Trabajo\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (pyodbc.IntegrityError) ('23000', "[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]No se puede insertar el valor NULL en la columna 'updated_at', tabla 'clinic_db.dbo.users'. La columna no admite valores NULL. Error de INSERT. (515) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Se terminó la instrucción. (3621)")
+[SQL: INSERT INTO users (id, username, hashed_password, role, full_name, specialization) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (1, 'admin', 'scrypt:32768:8:1$GN3zizFnmQRvwhfC$ab71a41bcce77df2e2a07d5d88eb873c9a00e883a67369ce34e4dc764e195504b5f2859043c2527dae6cb685e85cc88d98d8ad4d88d0a6f0a1825d7bac44bfea', 'ADMIN', 'Administrador del Sistema', None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 08:17:24,264 - INFO - ==================================================
+2025-12-09 08:17:24,264 - INFO - Iniciando aplicación. Config path: C:\Users\Admin\Trabajo\config.ini
+2025-12-09 08:17:27,584 - INFO - Configurando conexión MSSQL a 192.168.0.15,1433 (DB: clinic_db)
+2025-12-09 08:17:27,584 - INFO - Intentando crear engine SQL Server (MSSQL)...
+2025-12-09 08:17:28,603 - INFO - Engine MSSQL creado correctamente.
+2025-12-09 08:17:33,827 - INFO - Icono de la aplicación cargado correctamente.
+2025-12-09 08:17:33,827 - INFO - Creando respaldo automático de la base de datos...
+2025-12-09 08:17:33,831 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20251209_081733.db (0.04 MB)
+2025-12-09 08:17:33,833 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251202_134209.db
+2025-12-09 08:17:33,834 - INFO - Manteniendo los 10 respaldos más recientes
+2025-12-09 08:17:36,760 - INFO - Mostrando ventana de login.
+2025-12-09 08:17:53,934 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-09 08:17:53,934 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2025-12-09 08:17:53,947 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-09 08:17:53,952 - INFO - Configurando UI para rol: UserRole.ADMIN
+2025-12-09 08:17:53,953 - INFO - Agregando panel de Pacientes y Citas
+2025-12-09 08:17:54,115 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-09 08:17:54,142 - INFO - Agregando panel de Reportes Financieros
+2025-12-09 08:17:54,578 - INFO - Agregando panel de Mi Perfil
+2025-12-09 08:17:54,608 - INFO - Total de pestañas agregadas: 4
+2025-12-09 08:18:52,311 - INFO - Cerrando sesión para el usuario 'admin'.
+2025-12-09 08:19:02,378 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'DESKTOP-GVBVF8K'.
+2025-12-09 08:19:02,378 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2025-12-09 08:19:02,386 - INFO - Proceso de envío de recordatorios de citas finalizado.
+2025-12-09 08:19:02,389 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2025-12-09 08:19:02,389 - INFO - Agregando panel de Gestión de Usuarios
+2025-12-09 08:19:02,404 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2025-12-09 08:19:02,407 - INFO - Creando panel de Auditoría...
+2025-12-09 08:19:02,411 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2025-12-09 08:19:02,440 - INFO - ✓ Panel de Auditoría agregado
+2025-12-09 08:19:02,440 - INFO - Creando panel de Base de Datos...
+2025-12-09 08:19:02,507 - INFO - ✓ Panel de Base de Datos agregado
+2025-12-09 08:19:02,509 - INFO - Creando panel de Email...
+2025-12-09 08:19:02,519 - INFO - ✓ Panel de Email agregado
+2025-12-09 08:19:02,519 - INFO - Agregando panel de Mi Perfil
+2025-12-09 08:19:02,544 - INFO - Total de pestañas agregadas: 5
