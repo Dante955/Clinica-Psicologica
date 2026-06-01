@@ -290,3 +290,139 @@ sqlalchemy.exc.IntegrityError: (pyodbc.IntegrityError) ('23000', "[23000] [Micro
 2025-12-09 10:02:11,628 - INFO - Total de pestañas agregadas: 5
 2025-12-09 10:02:13,992 - INFO - Iniciando actualización global de datos...
 2025-12-09 10:02:13,998 - INFO - Pestaña 'Gestión de Usuarios' actualizada.
+2026-05-31 21:30:44,022 - INFO - ==================================================
+2026-05-31 21:30:44,023 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:30:45,861 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:30:48,224 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:30:48,225 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:30:48,226 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_213048.db (0.04 MB)
+2026-05-31 21:30:48,228 - INFO - 🗑️  Respaldo antiguo eliminado: clinic_auto_backup_20251201_145632.db
+2026-05-31 21:30:48,228 - INFO - Manteniendo los 10 respaldos más recientes
+2026-05-31 21:30:50,216 - INFO - Mostrando ventana de login.
+2026-05-31 21:31:20,043 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:31:20,044 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:31:20,045 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:31:20,049 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:31:20,049 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:31:20,178 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:31:20,207 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:31:20,620 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:31:20,672 - INFO - Total de pestañas agregadas: 4
+2026-05-31 21:31:58,707 - INFO - Iniciando actualización global de datos...
+2026-05-31 21:31:58,710 - INFO - Pestaña 'Pacientes y Citas' actualizada.
+2026-05-31 21:31:58,714 - INFO - Pestaña 'Gestión de Usuarios' actualizada.
+2026-05-31 21:31:58,721 - ERROR - Error al actualizar pestaña 'Reportes Financieros': unsupported operand type(s) for +: 'float' and 'decimal.Decimal'
+2026-05-31 21:35:24,374 - INFO - ==================================================
+2026-05-31 21:35:24,374 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:35:25,896 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:35:27,157 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:35:27,157 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:35:27,159 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_213527.db (0.04 MB)
+2026-05-31 21:35:28,795 - INFO - Mostrando ventana de login.
+2026-05-31 21:35:37,012 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:35:37,012 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:35:37,013 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:35:37,083 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:35:37,083 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:35:37,253 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:35:37,294 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:35:46,277 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:35:46,315 - INFO - Total de pestañas agregadas: 4
+2026-05-31 21:39:26,995 - INFO - ==================================================
+2026-05-31 21:39:26,996 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:39:28,211 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:39:29,407 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:39:29,408 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:39:29,409 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_213929.db (0.04 MB)
+2026-05-31 21:39:29,634 - INFO - Mostrando ventana de login.
+2026-05-31 21:39:37,080 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:39:37,080 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:39:37,081 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:39:37,085 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:39:37,086 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:39:37,214 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:39:37,243 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:39:47,493 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:39:47,530 - INFO - Total de pestañas agregadas: 4
+2026-05-31 21:42:45,265 - INFO - ==================================================
+2026-05-31 21:42:45,265 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:42:46,595 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:42:48,039 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:42:48,039 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:42:48,041 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_214248.db (0.04 MB)
+2026-05-31 21:42:48,313 - INFO - Mostrando ventana de login.
+2026-05-31 21:42:58,880 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:42:58,880 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:42:58,881 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:42:58,885 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:42:58,885 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:42:59,060 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:42:59,091 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:42:59,130 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:42:59,204 - INFO - Total de pestañas agregadas: 4
+2026-05-31 21:43:53,915 - INFO - Cerrando sesión para el usuario 'admin'.
+2026-05-31 21:44:00,597 - INFO - Inicio de sesión exitoso para el usuario 'steve' con rol 'SOPORTE' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:44:00,597 - INFO - El rol 'SOPORTE' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:44:00,598 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:44:00,602 - INFO - Configurando UI para rol: UserRole.SOPORTE
+2026-05-31 21:44:00,602 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:44:00,636 - INFO - Usuario SOPORTE detectado, agregando pestañas especiales...
+2026-05-31 21:44:00,637 - INFO - Creando panel de Auditoría...
+2026-05-31 21:44:00,677 - INFO - El usuario 'steve' está viendo el registro de auditoría.
+2026-05-31 21:44:00,686 - INFO - ✓ Panel de Auditoría agregado
+2026-05-31 21:44:00,687 - INFO - Creando panel de Base de Datos...
+2026-05-31 21:44:00,827 - INFO - ✓ Panel de Base de Datos agregado
+2026-05-31 21:44:00,827 - INFO - Creando panel de Email...
+2026-05-31 21:44:00,834 - INFO - ✓ Panel de Email agregado
+2026-05-31 21:44:00,835 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:44:00,878 - INFO - Total de pestañas agregadas: 5
+2026-05-31 21:48:34,897 - INFO - ==================================================
+2026-05-31 21:48:34,897 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:48:36,419 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:48:37,888 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:48:37,889 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:48:37,892 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_214837.db (0.04 MB)
+2026-05-31 21:48:38,886 - INFO - Mostrando ventana de login.
+2026-05-31 21:48:48,021 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:48:48,021 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:48:48,022 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:48:48,026 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:48:48,027 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:48:48,185 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:48:48,212 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:48:48,246 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:48:48,295 - INFO - Total de pestañas agregadas: 4
+2026-05-31 21:53:22,874 - INFO - ==================================================
+2026-05-31 21:53:22,874 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 21:53:24,036 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 21:53:25,162 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 21:53:25,162 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 21:53:25,164 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_215325.db (0.04 MB)
+2026-05-31 21:53:25,630 - INFO - Mostrando ventana de login.
+2026-05-31 21:53:32,916 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 21:53:32,917 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 21:53:32,917 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 21:53:32,920 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 21:53:32,921 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 21:53:33,037 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 21:53:33,061 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 21:53:33,091 - INFO - Agregando panel de Mi Perfil
+2026-05-31 21:53:33,156 - INFO - Total de pestañas agregadas: 4
+2026-05-31 22:00:13,128 - INFO - ==================================================
+2026-05-31 22:00:13,129 - INFO - Iniciando aplicación. Config path: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini
+2026-05-31 22:00:14,292 - WARNING - No se encontró config.ini en: /home/dante955/Documentos/python/Clinica-Psicologica/config.ini. Usando SQLite.
+2026-05-31 22:00:15,644 - INFO - Icono de la aplicación cargado correctamente.
+2026-05-31 22:00:15,644 - INFO - Creando respaldo automático de la base de datos...
+2026-05-31 22:00:15,645 - INFO - ✅ Respaldo automático creado: clinic_auto_backup_20260531_220015.db (0.04 MB)
+2026-05-31 22:00:16,327 - INFO - Mostrando ventana de login.
+2026-05-31 22:00:23,679 - INFO - Inicio de sesión exitoso para el usuario 'admin' con rol 'ADMIN' desde el equipo 'IdeaPad-3-17IAU7'.
+2026-05-31 22:00:23,680 - INFO - El rol 'ADMIN' permite el envío de notificaciones. Iniciando tarea.
+2026-05-31 22:00:23,681 - WARNING - El servicio de notificaciones no está configurado en 'config.ini'. Se omite el envío de correos.
+2026-05-31 22:00:23,686 - INFO - Configurando UI para rol: UserRole.ADMIN
+2026-05-31 22:00:23,686 - INFO - Agregando panel de Pacientes y Citas
+2026-05-31 22:00:23,823 - INFO - Agregando panel de Gestión de Usuarios
+2026-05-31 22:00:23,863 - INFO - Agregando panel de Reportes Financieros
+2026-05-31 22:00:23,946 - INFO - Agregando panel de Mi Perfil
+2026-05-31 22:00:23,997 - INFO - Total de pestañas agregadas: 4
+2026-05-31 22:00:34,354 - INFO - Salario actualizado para psico1: C$0
+2026-05-31 22:00:51,058 - INFO - Salario actualizado para steve: C$12000

@@ -116,7 +116,7 @@ class MainWindow(QMainWindow):
         # Pestañas exclusivas para Admin
         if role == UserRole.ADMIN:
             logging.info("Agregando panel de Reportes Financieros")
-            financial_widget = FinancialPanel()
+            financial_widget = FinancialPanel(auth_service=self.auth_service)
             self.tabs.addTab(financial_widget, "Reportes Financieros")
 
         # Pestañas exclusivas para Soporte
